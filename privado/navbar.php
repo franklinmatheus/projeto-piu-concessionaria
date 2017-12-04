@@ -7,10 +7,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Nome do projeto</a>
+        <a class="navbar-brand" href="index.php">Hi-car</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
+        <li><a href="notificacoes.php">Notificações</a></li>
         <li><a href="configuracoes.php">Configurações</a></li>
         <li><a href="perfil.php">Perfil</a></li>
         <li><a href="historico.php">Histórico de atividades</a></li>

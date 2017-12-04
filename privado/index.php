@@ -21,6 +21,13 @@
         <div class="col-sm-12 col-md-offset-1 col-md-10 col-xs-12 main">
           <div class="row">
             <div class="col-md-12">
+              <div class="alert alert-info" role="alert">
+                <p>
+                  <a href="notificacoes.php">Notificações <span class="badge">0</span></a>
+                </p>
+              </div>
+              <hr>
+              <h3><strong>Meus carros</strong></h3>
               <?php 
                 $select_carros = "SELECT * FROM carro WHERE id_dono='".$user['id']."'";
                 $sql_select_carros = mysqli_query($conexao, $select_carros);
@@ -28,8 +35,8 @@
                 while ($carro = mysqli_fetch_array($sql_select_carros)) {
                   ?>
                     <div class="car">
-                      <p><strong><a href="carro/carro.php?id=<?=$carro['id']?>"><?=$carro['modelo']?></a></strong></p>
-                      <?=$carro['marca']?>
+                      <p><strong><a href="carro.php?id=<?=$carro['id']?>"><?=$carro['modelo']?></a></strong></p>
+                      <?=$carro['marca']?> <strong><?=$carro['ano']?></strong>
                     </div>
               <?php
                 }

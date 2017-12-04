@@ -21,14 +21,20 @@
         <div class="col-sm-12 col-md-offset-1 col-md-10 col-xs-12 main">
           <div class="row">
             <div class="col-md-12">
-              <div class="panel">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><strong>Perfil</strong></h3>
+                <div class="alert alert-success" role="alert">
+                    <strong>Você não possui nenhuma notificação!</strong>
                 </div>
-                <div class="panel-body" align="center">
-                    <!-- TODO user data -->
+                <hr>
+                <h3><strong>Histórico</strong></h3>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <span class="label label-warning pull-right">28, nov. 2017</span>                        
+                        <h3 class="panel-title"><strong>Carro adicionado</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        Seu Renegade foi adicionado ao seu perfil!
+                    </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>

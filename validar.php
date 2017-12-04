@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="docs/favicon.ico">
-    <title>Fórum</title>
+    <title>Hi-car</title>
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="dist/css/cover.css" rel="stylesheet">
@@ -41,7 +41,7 @@
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Nome do projeto</h3>
+              <h3 class="masthead-brand">Hi-car</h3>
             </div>
           </div>
           <div class="inner cover">

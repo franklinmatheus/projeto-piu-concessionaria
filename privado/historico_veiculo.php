@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<?php include ('session.php') ?>
+<?php 
+    include ('session.php'); 
+    $id_car = $_GET['id'];
+    
+    $select = "SELECT * FROM carro WHERE id='$id_car'";
+    $sql_select = mysqli_query($conexao, $select);
+    $car = mysqli_fetch_array($sql_select);
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <title>Área do usuário</title>
+    <link rel="icon" href="../favicon.ico">
+    <title>Carro</title>
     <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="../dist/css/user.css" rel="stylesheet">
@@ -23,12 +30,11 @@
             <div class="col-md-12">
               <div class="panel">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><strong>Perfil</strong></h3>
+                    <h3 class="panel-title"><strong>Histórico do veículo</strong></h3>
                 </div>
                 <div class="panel-body" align="center">
-                    <!-- TODO user data -->
+                    Nenhum registro encontrado!
                 </div>
-              </div>
             </div>
           </div>
         </div>

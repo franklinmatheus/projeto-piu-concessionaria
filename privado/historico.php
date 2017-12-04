@@ -21,7 +21,14 @@
         <div class="col-sm-12 col-md-offset-1 col-md-10 col-xs-12 main">
           <div class="row">
             <div class="col-md-12">
-
+              <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Histórico de atividades</strong></h3>
+                </div>
+                <div class="panel-body" align="center">
+                    Nenhum registro encontrado!
+                </div>
+              </div>
             </div>
           </div>
         </div>

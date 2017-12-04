@@ -25,7 +25,6 @@
                 <ul class="nav masthead-nav">
                   <li><a href="index.php">Login</a></li>
                   <li class="active"><a href="cadastro.php">Cadastre-se</a></li>
-                  <li><a href="sobre.php">Sobre</a></li>
                 </ul>
               </nav>
             </div>
